@@ -30,13 +30,15 @@ SELECT * FROM movies.starwars LIMIT 5;
 
 will return 
 
-      name      | height | mass | hair_color 
- --- | --- | --- | ---
- Luke Skywalker |    172 |   77 | blond
- C-3PO          |    167 |   75 | 
- R2-D2          |     96 |   32 | 
- Darth Vader    |    202 |  136 | none
- Leia Organa    |    150 |   49 | brown
+
+| name  | height | mass | hair_color |
+| ------------- | ------------- | ------------- | ------------- |
+|  Luke Skywalker |    172 |   77 | blond  |
+| C-3PO          |    167 |   75 | |
+| R2-D2          |     96 |   32 | |
+| Darth Vader    |    202 |  136 | none |
+|  Leia Organa    |    150 |   49 | brown |
+
 
 
 
