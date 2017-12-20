@@ -1,0 +1,16 @@
+Package: sqlwzrd
+Type: Package
+Version: 0.1
+Title: SQL Wizard Dynamically Create SQL Statements with R
+Description: Create SQL statemens such as create table or bulk upserts using R.
+Author: "Matthias Bannert <bannert@kof.ethz.ch> [aut, cre]"
+Depends:
+    R (>= 3.0.0),
+    RPostgreSQL,
+    dplyr
+Date: 2017-12-20
+License: GPL-2
+LazyData: true
+Maintainer: 'Matthias Bannert' <bannert@kof.ethz.ch>
+RoxygenNote: 6.0.1
+Suggests: testthat
